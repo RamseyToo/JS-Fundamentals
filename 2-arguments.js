@@ -3,8 +3,8 @@ if (args.length===0){
     console.log("No arguments");
 
 }else if (args.length===1){
-    ( "Argument found");
+    console.log( "Argument found");
 
-}else{
+}else (args.length===2){
     console.log("Arguments found" );
 }
